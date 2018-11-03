@@ -31,7 +31,7 @@ body {
   }
 }
 
-#about {
+#about, #author {
 
   .info-header {
     width: 50%;
@@ -41,16 +41,20 @@ body {
 
 }
 
+#author {
+  img {
+    margin-top: -50px;
+  }
 
+  .card:hover {
+    background: $primary;
+    color: #fff;
+  }
 
-
-
-
-
-
-
-
-
+  .d-flex a {
+    color: #fff;
+  }
+}
 
 
 @media (max-width: 768px) {
